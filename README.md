@@ -2,7 +2,7 @@
 
 A simple Kotlin multi-platform wrapper around the Kotlin Coroutine Dispatchers object. Providing fall backs when a
 CoroutineDispatcher isn't available for a target platform. <br/>
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/chrynan/dispatchers">
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chrynan/dispatchers">
 
 ```kotlin
 withContext(dispatchers.io) { ... }
@@ -12,7 +12,7 @@ withContext(dispatchers.io) { ... }
 
 The library is provided through [Repsy](https://repsy.io). Refer to
 the [releases](https://github.com/chRyNaN/dispatchers/releases) for the latest version. <br/>
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/chrynan/dispatchers">
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chrynan/dispatchers">
 
 ### Repository
 
