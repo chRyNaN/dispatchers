@@ -1,0 +1,37 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.chrynan.dispatchers////PointingToDeclaration/dispatchers/com.chrynan.dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers//dispatchers/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/dispatchers.md
+$dokka.location:com.chrynan.dispatchers//ui/com.chrynan.dispatchers.CoroutineDispatchers#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/ui.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers/AndroidCoroutineDispatchers/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/-android-coroutine-dispatchers.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/default.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/io.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/main.md
+$dokka.location:com.chrynan.dispatchers/AndroidCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-android-coroutine-dispatchers/unconfined.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers.Companion///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/-companion/index.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/default.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/io.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/main.md
+$dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/unconfined.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/IosCoroutineDispatchers/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/-ios-coroutine-dispatchers.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/default.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/io.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/main.md
+$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/unconfined.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/JsCoroutineDispatchers/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/-js-coroutine-dispatchers.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/default.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/io.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/main.md
+$dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/unconfined.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/JvmCoroutineDispatchers/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/-jvm-coroutine-dispatchers.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/default.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/io.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/main.md
+$dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/unconfined.md
+com.chrynan.dispatchers
+
