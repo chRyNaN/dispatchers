@@ -1,25 +1,23 @@
 import com.chrynan.dispatchers.buildSrc.LibraryConstants
 
+apply plugin: "com.android.library"
 apply plugin: "kotlin-multiplatform"
-apply plugin: "com.android.application"
-apply plugin: "digital.wup.android-maven-publish"
 apply plugin: "org.jetbrains.dokka"
+apply plugin: "maven-publish"
 
 group LibraryConstants.group
 version LibraryConstants.versionName
 
 kotlin {
-    targets {
-        jvm()
-        js()
-        android()
-        ios()
+    jvm()
+    js()
+    ios()
+    android {
+        publishLibraryVariants("release")
     }
     sourceSets {
         commonMain {
             dependencies {
-                implementation "org.jetbrains.kotlin:kotlin-stdlib-common"
-
                 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3"
             }
         }
@@ -46,8 +44,6 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
-            matchingFallbacks = ["debug"]
         }
     }
     compileOptions {
@@ -63,10 +59,6 @@ android {
             java.srcDirs = ["src/androidMain/kotlin"]
             res.srcDirs = ["src/androidMain/res"]
         }
-        test {
-            java.srcDirs = ["src/androidTest/kotlin"]
-            res.srcDirs = ["src/androidTest/res"]
-        }
     }
     configurations {
         cleanedAnnotations
@@ -75,21 +67,13 @@ android {
 }
 
 publishing {
-    publications {
-        kotlinMultiplatform {
-            artifactId = "dispatchers"
-        }
-        jvm {
-            artifactId = "dispatchers-jvm"
-        }
-        js {
-            artifactId = "dispatchers-js"
-        }
-        iosArm64 {
-            artifactId = "dispatchers-ios-arm64"
-        }
-        iosX64 {
-            artifactId = "dispatchers-ios-x64"
+    repositories {
+        maven {
+            url "https://repo.repsy.io/mvn/chrynan/public"
+            credentials {
+                username repsyUsername
+                password repsyPassword
+            }
         }
     }
 }
