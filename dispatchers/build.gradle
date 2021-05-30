@@ -9,24 +9,24 @@ group LibraryConstants.group
 version LibraryConstants.versionName
 
 kotlin {
-    jvm()
-    js(BOTH) {
-        browser()
-        nodejs()
-    }
-    ios()
-    android {
-        publishLibraryVariants("release")
+    targets {
+        jvm()
+        js(BOTH) {
+            browser()
+            nodejs()
+        }
+        ios()
+        android()
     }
     sourceSets {
         commonMain {
             dependencies {
-                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3"
+                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
             }
         }
         androidMain {
             dependencies {
-                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3"
+                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
             }
         }
     }
