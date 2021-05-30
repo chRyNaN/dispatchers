@@ -17,7 +17,7 @@ Note that this isn't available on all platforms, so when one isn't present, this
 
 
 
-Default implementation CoroutineDispatcher: Android - Main JVM - JavaFx - Main (If there was an error obtaining the JavaFx Main CoroutineDispatcher, then it falls back to [default](default.md)) JVM - Swing - Main (If there was an error obtaining the Swing Main CoroutineDispatcher, then it falls back to [default](default.md)) JS - Default iOS - Default
+Default implementation CoroutineDispatcher: Android - Main JVM - JavaFx - Main (If there was an error obtaining the JavaFx Main CoroutineDispatcher, then it falls back to [default](default.md)) JVM - Swing - Main (If there was an error obtaining the Swing Main CoroutineDispatcher, then it falls back to [default](default.md)) JS - Default iOS - Custom Main implementation or Default
 
   
 

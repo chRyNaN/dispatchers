@@ -33,5 +33,9 @@ $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/default/#/Pointi
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/io.md
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/main.md
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/unconfined.md
+$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher///PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/index.md
+$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/dispatch/#CoroutineContext#kotlinx.coroutines.Runnable/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/dispatch.md
+$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/invokeOnTimeout/#kotlin.Long#kotlinx.coroutines.Runnable#CoroutineContext/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/invoke-on-timeout.md
+$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/scheduleResumeAfterDelay/#kotlin.Long#kotlinx.coroutines.CancellableContinuation[kotlin.Unit]/PointingToDeclaration/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/schedule-resume-after-delay.md
 com.chrynan.dispatchers
 
