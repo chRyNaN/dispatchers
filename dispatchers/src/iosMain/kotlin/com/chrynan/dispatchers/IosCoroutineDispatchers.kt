@@ -1,12 +1,13 @@
 package com.chrynan.dispatchers
 
-import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.*
 
 class IosCoroutineDispatchers : CoroutineDispatchers {
 
+    @ExperimentalCoroutinesApi
+    @InternalCoroutinesApi
     override val main: CoroutineDispatcher = try {
-        Dispatchers.Main
+        MainLoopDispatcher
     } catch (exception: IllegalStateException) {
         Dispatchers.Default
     }

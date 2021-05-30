@@ -1,5 +1,3 @@
 rootProject.name = "dispatchers"
 
 include ":dispatchers"
-
-enableFeaturePreview("GRADLE_METADATA")

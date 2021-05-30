@@ -39,7 +39,7 @@ interface CoroutineDispatchers {
      * JVM - Swing - Main (If there was an error obtaining the Swing Main [CoroutineDispatcher], then it falls back to
      * [default])
      * JS - Default
-     * iOS - Default
+     * iOS - Custom Main implementation or Default
      */
     val main: CoroutineDispatcher
 
