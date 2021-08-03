@@ -7,7 +7,7 @@ class IosCoroutineDispatchers : CoroutineDispatchers {
     @ExperimentalCoroutinesApi
     @InternalCoroutinesApi
     override val main: CoroutineDispatcher = try {
-        MainLoopDispatcher
+        Dispatchers.Main
     } catch (exception: IllegalStateException) {
         Dispatchers.Default
     }
