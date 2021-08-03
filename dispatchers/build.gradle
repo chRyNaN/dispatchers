@@ -9,6 +9,10 @@ group LibraryConstants.group
 version LibraryConstants.versionName
 
 kotlin {
+    android {
+        publishAllLibraryVariants()
+        publishLibraryVariantsGroupedByFlavor = true
+    }
     targets {
         jvm()
         js(BOTH) {
@@ -21,12 +25,12 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
+                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1"
             }
         }
         androidMain {
             dependencies {
-                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0"
+                implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1"
             }
         }
     }
@@ -92,15 +96,6 @@ afterEvaluate {
                     username = project.findProperty("repsyUsername") ?: System.getenv("repsyUsername")
                     password = project.findProperty("repsyToken") ?: System.getenv("repsyToken")
                 }
-            }
-        }
-
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId LibraryConstants.group
-                artifactId "dispatchers-android"
-                version LibraryConstants.versionName
             }
         }
     }
