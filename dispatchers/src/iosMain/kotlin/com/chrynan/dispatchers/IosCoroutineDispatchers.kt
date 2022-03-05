@@ -4,8 +4,6 @@ import kotlinx.coroutines.*
 
 class IosCoroutineDispatchers : CoroutineDispatchers {
 
-    @ExperimentalCoroutinesApi
-    @InternalCoroutinesApi
     override val main: CoroutineDispatcher = try {
         Dispatchers.Main
     } catch (exception: IllegalStateException) {

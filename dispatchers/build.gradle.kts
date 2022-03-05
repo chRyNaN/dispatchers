@@ -82,6 +82,12 @@ android {
 
 tasks.withType<Jar> { duplicatesStrategy = DuplicatesStrategy.INHERIT }
 
+kotlin.targets.withType(org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget::class.java) {
+    binaries.all {
+        binaryOptions["memoryModel"] = "experimental"
+    }
+}
+
 afterEvaluate {
     publishing {
         repositories {

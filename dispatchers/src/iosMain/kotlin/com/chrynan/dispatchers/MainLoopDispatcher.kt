@@ -31,7 +31,6 @@ object MainLoopDispatcher : CoroutineDispatcher(),
         }
     }
 
-    @InternalCoroutinesApi
     override fun invokeOnTimeout(timeMillis: Long, block: Runnable, context: CoroutineContext): DisposableHandle {
         val handle = object : DisposableHandle {
 
