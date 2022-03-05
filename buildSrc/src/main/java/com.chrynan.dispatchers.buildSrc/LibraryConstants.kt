@@ -2,13 +2,12 @@ package com.chrynan.dispatchers.buildSrc
 
 object LibraryConstants {
 
-    const val bintrayRepo = "chrynan"
     const val group = "com.chrynan.dispatchers"
     const val owner = "chrynan"
     const val repoName = "dispatchers"
-    const val versionName = "0.2.3"
-    const val versionCode = 6
-    const val versionDescription = "Release 0.2.3 (6)"
+    const val versionName = "0.3.0"
+    const val versionCode = 7
+    const val versionDescription = "Release $versionName ($versionCode)"
     const val license = "Apache-2.0"
     const val vcsUrl = "https://github.com/chRyNaN/dispatchers.git"
 
