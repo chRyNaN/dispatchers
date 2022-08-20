@@ -1,11 +1,6 @@
 //[dispatchers](../../../index.md)/[com.chrynan.dispatchers](../index.md)/[JsCoroutineDispatchers](index.md)/[JsCoroutineDispatchers](-js-coroutine-dispatchers.md)
 
+# JsCoroutineDispatchers
 
-
-# JsCoroutineDispatchers  
-[js]  
-Content  
-fun [JsCoroutineDispatchers](-js-coroutine-dispatchers.md)()  
-
-
-
+[js]\
+fun [JsCoroutineDispatchers](-js-coroutine-dispatchers.md)()

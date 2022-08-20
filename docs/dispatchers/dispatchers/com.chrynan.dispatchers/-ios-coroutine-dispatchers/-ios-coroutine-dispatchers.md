@@ -1,11 +1,6 @@
 //[dispatchers](../../../index.md)/[com.chrynan.dispatchers](../index.md)/[IosCoroutineDispatchers](index.md)/[IosCoroutineDispatchers](-ios-coroutine-dispatchers.md)
 
+# IosCoroutineDispatchers
 
-
-# IosCoroutineDispatchers  
-[ios]  
-Content  
-fun [IosCoroutineDispatchers](-ios-coroutine-dispatchers.md)()  
-
-
-
+[ios]\
+fun [IosCoroutineDispatchers](-ios-coroutine-dispatchers.md)()

@@ -1,13 +1,9 @@
 //[dispatchers](index.md)
 
+# dispatchers
 
+## Packages
 
-# dispatchers  
-
-
-## Packages  
-  
-|  Name | 
+| Name |
 |---|
-| <a name="com.chrynan.dispatchers////PointingToDeclaration/"></a>[com.chrynan.dispatchers](dispatchers/com.chrynan.dispatchers/index.md)|
-
+| [com.chrynan.dispatchers](dispatchers/com.chrynan.dispatchers/index.md) |

@@ -1,11 +1,6 @@
 //[dispatchers](../../../index.md)/[com.chrynan.dispatchers](../index.md)/[JvmCoroutineDispatchers](index.md)/[JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md)
 
+# JvmCoroutineDispatchers
 
-
-# JvmCoroutineDispatchers  
-[jvm]  
-Content  
-fun [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md)()  
-
-
-
+[jvm]\
+fun [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md)()

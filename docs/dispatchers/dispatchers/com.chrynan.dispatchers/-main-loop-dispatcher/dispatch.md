@@ -1,11 +1,6 @@
 //[dispatchers](../../../index.md)/[com.chrynan.dispatchers](../index.md)/[MainLoopDispatcher](index.md)/[dispatch](dispatch.md)
 
+# dispatch
 
-
-# dispatch  
-[ios]  
-Content  
-open override fun [dispatch](dispatch.md)(context: <!---  GfmCommand {"@class":"org.jetbrains.dokka.gfm.ResolveLinkGfmCommand","dri":{"packageName":"","classNames":"<ERROR CLASS>","callable":null,"target":{"@class":"org.jetbrains.dokka.links.PointingToDeclaration"},"extra":null}} ---><ERROR CLASS><!--- --->, block: Runnable)  
-
-
-
+[ios]\
+open override fun [dispatch](dispatch.md)(context: [CoroutineContext](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.coroutines/-coroutine-context/index.html), block: Runnable)

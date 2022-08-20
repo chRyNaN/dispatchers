@@ -1,11 +1,6 @@
 //[dispatchers](../../../index.md)/[com.chrynan.dispatchers](../index.md)/[AndroidCoroutineDispatchers](index.md)/[AndroidCoroutineDispatchers](-android-coroutine-dispatchers.md)
 
+# AndroidCoroutineDispatchers
 
-
-# AndroidCoroutineDispatchers  
-[android]  
-Content  
-fun [AndroidCoroutineDispatchers](-android-coroutine-dispatchers.md)()  
-
-
-
+[android]\
+fun [AndroidCoroutineDispatchers](-android-coroutine-dispatchers.md)()
