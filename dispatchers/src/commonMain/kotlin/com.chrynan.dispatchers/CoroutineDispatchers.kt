@@ -100,3 +100,10 @@ val CoroutineDispatchers.ui: CoroutineDispatcher
  * Retrieves the default implementation of the [CoroutineDispatchers] interface for this target runtime.
  */
 expect val dispatchers: CoroutineDispatchers
+
+/**
+ * The default [CoroutineDispatchers] instance. Each Kotlin target platform provides their own default implementation
+ * of the [CoroutineDispatchers] interface and this returns the current platforms instance.
+ */
+val CoroutineDispatchers.Companion.default: CoroutineDispatchers
+    get() = dispatchers
