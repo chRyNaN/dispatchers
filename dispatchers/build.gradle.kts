@@ -28,12 +28,12 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
             }
         }
         val androidMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0")
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
             }
         }
         val iosMain by sourceSets.getting
