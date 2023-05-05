@@ -11,5 +11,5 @@ import kotlinx.coroutines.Dispatchers
  * will return, for the JS platform, there is no specific IO dispatcher, so the default dispatcher is returned.
  */
 @Suppress("UnusedReceiverParameter")
-val Dispatchers.IO: CoroutineDispatcher
+val Dispatchers.PlatformIO: CoroutineDispatcher
     get() = dispatchers.io

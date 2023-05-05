@@ -3,4 +3,4 @@
 # IosCoroutineDispatchers
 
 [ios]\
-fun [IosCoroutineDispatchers](-ios-coroutine-dispatchers.md)()
+constructor()

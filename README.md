@@ -7,7 +7,7 @@ CoroutineDispatcher isn't available for a target platform. <br/><br/>
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chrynan/dispatchers">
 
 ```kotlin
-withContext(Dispatchers.IO) { ... }
+withContext(Dispatchers.PlatformIO) { ... }
 ```
 
 ## Getting Started 🏁
@@ -32,8 +32,8 @@ implementation "com.chrynan.dispatchers:dispatchers:$VERSION"
 
 ## Usage 👨‍💻
 
-This library provides a `Dispatchers.IO` property in the common source set. Simply use that, or if needed, you can
-access all the `CoroutineDispatchers` via the `dispatchers` top-level object. Then use the available dispatchers:
+This library provides a `Dispatchers.PlatformIO` property in the common source set. Simply use that, or if needed, you
+can access all the `CoroutineDispatchers` via the `dispatchers` top-level object. Then use the available dispatchers:
 
 ```kotlin
 launch(dispatchers.main) {

@@ -15,6 +15,7 @@ Note that not all platforms natively support all of the CoroutineDispatcher type
 | |
 |---|
 | [AndroidCoroutineDispatchers](../-android-coroutine-dispatchers/index.md#-1842736867%2FMain%2F1933534356) |
+| [IosCoroutineDispatchers](../-ios-coroutine-dispatchers/index.md#1471526847%2FMain%2F1933534356) |
 | [JsCoroutineDispatchers](../-js-coroutine-dispatchers/index.md#-1786781563%2FMain%2F1933534356) |
 | [JvmCoroutineDispatchers](../-jvm-coroutine-dispatchers/index.md#1862931371%2FMain%2F1933534356) |
 
