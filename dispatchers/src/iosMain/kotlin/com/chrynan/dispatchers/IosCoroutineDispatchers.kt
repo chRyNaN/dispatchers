@@ -12,7 +12,7 @@ class IosCoroutineDispatchers : CoroutineDispatchers {
 
     override val default: CoroutineDispatcher = Dispatchers.Default
 
-    override val io: CoroutineDispatcher = Dispatchers.Default
+    override val io: CoroutineDispatcher = Dispatchers.IO
 
     override val unconfined: CoroutineDispatcher = Dispatchers.Unconfined
 }

@@ -7,9 +7,9 @@ import kotlinx.coroutines.Dispatchers
 
 /**
  * An interface that provides properties for accessing commonly used [CoroutineDispatcher]s. This differs from the
- * [Dispatchers] object in that it has consistent properties across all platforms and since [CoroutineDispatchers] is
- * an interface, it can easily be mocked and tested, and different implementations can easily be made to adapt to
- * different scenarios.
+ * [Dispatchers] object in that it has consistent interface properties across all platforms and since
+ * [CoroutineDispatchers] is an interface, it can easily be mocked and tested, and different implementations can easily
+ * be made to adapt to different scenarios.
  *
  * Each supported platform contains an implementation of this [CoroutineDispatchers] interface and can be obtained via
  * the [dispatchers] top-level property.
@@ -18,12 +18,6 @@ import kotlinx.coroutines.Dispatchers
  * Dispatchers.IO), so fallbacks are provided when they aren't available for the default implementations.
  */
 interface CoroutineDispatchers {
-
-    /**
-     * The companion object for the [CoroutineDispatchers] interface. This is provided so that it's possible to create
-     * extension functions and properties on the companion object.
-     */
-    companion object
 
     /**
      * The main [CoroutineDispatcher] that is usually used for UI work. Default implementations of this interface,
@@ -52,10 +46,9 @@ interface CoroutineDispatchers {
      *
      * Default implementation [CoroutineDispatcher]:
      * Android - IO
-     * JVM - JavaFx - IO
-     * JVM - Swing - IO
+     * JVM - IO
      * JS - Default
-     * iOS - Default
+     * iOS - IO
      */
     val io: CoroutineDispatcher
 
@@ -63,28 +56,20 @@ interface CoroutineDispatchers {
      * The [CoroutineDispatcher] that is the default that is used by all standard builders like launch and async if no
      * other [CoroutineDispatcher] is provided or in their context. Default implementations of this interface, refer to
      * [Dispatchers.Default] for this value.
-     *
-     * Default implementation [CoroutineDispatcher]:
-     * Android - Default
-     * JVM - JavaFx - Default
-     * JVM - Swing - Default
-     * JS - Default
-     * iOS - Default
      */
     val default: CoroutineDispatcher
 
     /**
      * The [CoroutineDispatcher] that is not confined to any specific thread. Default implementations of this
      * interface refer to [Dispatchers.Unconfined] for this value.
-     *
-     * Default implementation [CoroutineDispatcher]:
-     * Android - Unconfined
-     * JVM - JavaFx - Unconfined
-     * JVM - Swing - Unconfined
-     * JS - Unconfined
-     * iOS - Unconfined
      */
     val unconfined: CoroutineDispatcher
+
+    /**
+     * The companion object for the [CoroutineDispatchers] interface. This is provided so that it's possible to create
+     * extension functions and properties on the companion object.
+     */
+    companion object
 }
 
 /**
