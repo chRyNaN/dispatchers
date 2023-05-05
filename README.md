@@ -1,14 +1,16 @@
+![presentation](assets/dispatchers_logo.png)
+
 # dispatchers
 
 A simple Kotlin multi-platform wrapper around the Kotlin Coroutine Dispatchers object. Providing fall backs when a
-CoroutineDispatcher isn't available for a target platform. <br/>
+CoroutineDispatcher isn't available for a target platform. <br/><br/>
 <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chrynan/dispatchers">
 
 ```kotlin
-withContext(dispatchers.io) { ... }
+withContext(Dispatchers.IO) { ... }
 ```
 
-## Building the library
+## Getting Started 🏁
 
 The library is provided through [Repsy](https://repsy.io). Refer to
 the [releases](https://github.com/chRyNaN/dispatchers/releases) for the latest version. <br/>
@@ -28,36 +30,10 @@ repositories {
 implementation "com.chrynan.dispatchers:dispatchers:$VERSION"
 ```
 
-### Additional Dependencies
+## Usage 👨‍💻
 
-Note that the targets **Android**, **JVM JavaFX**, and **JVM Swing** require additional dependencies from the Kotlin
-Coroutines Library to properly resolve the `Dispatchers.Main` Coroutine Dispatcher. This is not a requirement solely of
-this library, but of the Kotlin Coroutine Library as well. If the additional dependencies are not added,
-the `Dispatchers.Default` will be used in its place when using the default `CoroutineDispatchers` implementations of
-this library.
-
-**Android:**
-
-```groovy
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$COROUTINES_VERSION"
-```
-
-**JVM JavaFx:**
-
-```groovy
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-javafx:$COROUTINES_VERSION"
-```
-
-**JVM Swing:**
-
-```groovy
-implementation "org.jetbrains.kotlinx:kotlinx-coroutines-swing:$COROUTINES_VERSION"
-```
-
-## Using the library
-
-Simply access the `dispatchers` top-level object to obtain an instance of the `CoroutineDispatchers` interface. Then use
-the available dispatchers:
+This library provides a `Dispatchers.IO` property in the common source set. Simply use that, or if needed, you can
+access all the `CoroutineDispatchers` via the `dispatchers` top-level object. Then use the available dispatchers:
 
 ```kotlin
 launch(dispatchers.main) {
@@ -68,11 +44,30 @@ launch(dispatchers.main) {
 }
 ```
 
-## Documentation
+Since `CoroutineDispatchers` is an interface, it is easy to create an implementation or mock the component for testing
+purposes.
+
+## Documentation 📃
 
 Have a look at the [docs folder](docs) for documentation and more information about usage.
 
-## License
+## Security 🛡️
+
+For security vulnerabilities, concerns, or issues, please responsibly disclose the information either by opening a
+public GitHub Issue or reaching out to the project owner.
+
+## Contributing ✍️
+
+Outside contributions are welcome for this project. Please follow the [code of conduct](CODE_OF_CONDUCT.md)
+and [coding conventions](CODING_CONVENTIONS.md) when contributing. If contributing code, please add thorough documents.
+and tests. Thank you!
+
+## Sponsorship ❤️
+
+Support this project by [becoming a sponsor](https://www.buymeacoffee.com/chrynan) of my work! And make sure to give the
+repository a ⭐
+
+## License ⚖️
 
 ```
 Copyright 2021 chRyNaN
