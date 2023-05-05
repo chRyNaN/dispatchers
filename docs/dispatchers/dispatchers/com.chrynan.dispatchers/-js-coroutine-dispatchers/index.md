@@ -9,7 +9,7 @@ class [JsCoroutineDispatchers](index.md) : [CoroutineDispatchers](../../../../di
 
 | | |
 |---|---|
-| [JsCoroutineDispatchers](-js-coroutine-dispatchers.md) | [js]<br>fun [JsCoroutineDispatchers](-js-coroutine-dispatchers.md)() |
+| [JsCoroutineDispatchers](-js-coroutine-dispatchers.md) | [js]<br>constructor() |
 
 ## Properties
 
@@ -18,4 +18,5 @@ class [JsCoroutineDispatchers](index.md) : [CoroutineDispatchers](../../../../di
 | [default](default.md) | [js]<br>open override val [default](default.md): CoroutineDispatcher<br>The CoroutineDispatcher that is the default that is used by all standard builders like launch and async if no other CoroutineDispatcher is provided or in their context. Default implementations of this interface, refer to Dispatchers.Default for this value. |
 | [io](io.md) | [js]<br>open override val [io](io.md): CoroutineDispatcher<br>The CoroutineDispatcher that is usually used for input/output, or intensive operations. Default implementations of this interface, refer to Dispatchers.IO for this value when it is available. |
 | [main](main.md) | [js]<br>open override val [main](main.md): CoroutineDispatcher<br>The main CoroutineDispatcher that is usually used for UI work. Default implementations of this interface, refer to Dispatchers.Main for this value when it is available. |
+| [ui](../ui.md) | [common]<br>val [CoroutineDispatchers](../-coroutine-dispatchers/index.md).[ui](../ui.md): CoroutineDispatcher<br>A convenience extension property delegating to the [CoroutineDispatchers.main](../-coroutine-dispatchers/main.md) property. |
 | [unconfined](unconfined.md) | [js]<br>open override val [unconfined](unconfined.md): CoroutineDispatcher<br>The CoroutineDispatcher that is not confined to any specific thread. Default implementations of this interface refer to Dispatchers.Unconfined for this value. |

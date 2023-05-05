@@ -9,4 +9,4 @@ The CoroutineDispatcher that is usually used for input/output, or intensive oper
 
 Note that this isn't available on all platforms, so when one isn't present, this falls back to the default in the default implementation.
 
-Default implementation CoroutineDispatcher: Android - IO JVM - JavaFx - IO JVM - Swing - IO JS - Default iOS - Default
+Default implementation CoroutineDispatcher: Android - IO JVM - IO JS - Default iOS - IO

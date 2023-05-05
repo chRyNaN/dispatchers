@@ -3,4 +3,4 @@
 # JvmCoroutineDispatchers
 
 [jvm]\
-fun [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md)()
+constructor()

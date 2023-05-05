@@ -3,4 +3,4 @@
 # JsCoroutineDispatchers
 
 [js]\
-fun [JsCoroutineDispatchers](-js-coroutine-dispatchers.md)()
+constructor()

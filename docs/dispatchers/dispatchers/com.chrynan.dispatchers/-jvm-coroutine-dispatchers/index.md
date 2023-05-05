@@ -9,7 +9,7 @@ class [JvmCoroutineDispatchers](index.md) : [CoroutineDispatchers](../../../../d
 
 | | |
 |---|---|
-| [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md) | [jvm]<br>fun [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md)() |
+| [JvmCoroutineDispatchers](-jvm-coroutine-dispatchers.md) | [jvm]<br>constructor() |
 
 ## Properties
 
@@ -18,4 +18,5 @@ class [JvmCoroutineDispatchers](index.md) : [CoroutineDispatchers](../../../../d
 | [default](default.md) | [jvm]<br>open override val [default](default.md): CoroutineDispatcher<br>The CoroutineDispatcher that is the default that is used by all standard builders like launch and async if no other CoroutineDispatcher is provided or in their context. Default implementations of this interface, refer to Dispatchers.Default for this value. |
 | [io](io.md) | [jvm]<br>open override val [io](io.md): CoroutineDispatcher<br>The CoroutineDispatcher that is usually used for input/output, or intensive operations. Default implementations of this interface, refer to Dispatchers.IO for this value when it is available. |
 | [main](main.md) | [jvm]<br>open override val [main](main.md): CoroutineDispatcher<br>The main CoroutineDispatcher that is usually used for UI work. Default implementations of this interface, refer to Dispatchers.Main for this value when it is available. |
+| [ui](../ui.md) | [common]<br>val [CoroutineDispatchers](../-coroutine-dispatchers/index.md).[ui](../ui.md): CoroutineDispatcher<br>A convenience extension property delegating to the [CoroutineDispatchers.main](../-coroutine-dispatchers/main.md) property. |
 | [unconfined](unconfined.md) | [jvm]<br>open override val [unconfined](unconfined.md): CoroutineDispatcher<br>The CoroutineDispatcher that is not confined to any specific thread. Default implementations of this interface refer to Dispatchers.Unconfined for this value. |

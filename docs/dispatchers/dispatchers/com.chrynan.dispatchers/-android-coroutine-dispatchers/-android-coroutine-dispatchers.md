@@ -3,4 +3,4 @@
 # AndroidCoroutineDispatchers
 
 [android]\
-fun [AndroidCoroutineDispatchers](-android-coroutine-dispatchers.md)()
+constructor()

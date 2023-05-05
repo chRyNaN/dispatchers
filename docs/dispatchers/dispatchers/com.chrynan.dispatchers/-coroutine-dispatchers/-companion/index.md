@@ -7,7 +7,7 @@ object [Companion](index.md)
 
 The companion object for the [CoroutineDispatchers](../index.md) interface. This is provided so that it's possible to create extension functions and properties on the companion object.
 
-## Extensions
+## Properties
 
 | Name | Summary |
 |---|---|

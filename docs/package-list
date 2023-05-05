@@ -1,6 +1,7 @@
 $dokka.format:gfm-v1
 $dokka.linkExtension:md
 $dokka.location:com.chrynan.dispatchers////PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/index.md
+$dokka.location:com.chrynan.dispatchers//IO/kotlinx.coroutines.Dispatchers#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-i-o.md
 $dokka.location:com.chrynan.dispatchers//default/com.chrynan.dispatchers.CoroutineDispatchers.Companion#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/default.md
 $dokka.location:com.chrynan.dispatchers//dispatchers/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/dispatchers.md
 $dokka.location:com.chrynan.dispatchers//ui/com.chrynan.dispatchers.CoroutineDispatchers#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/ui.md
@@ -16,12 +17,6 @@ $dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/default/#/PointingT
 $dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/io.md
 $dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/main.md
 $dokka.location:com.chrynan.dispatchers/CoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-coroutine-dispatchers/unconfined.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers///PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/index.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/IosCoroutineDispatchers/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/-ios-coroutine-dispatchers.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/default.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/io.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/main.md
-$dokka.location:com.chrynan.dispatchers/IosCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-ios-coroutine-dispatchers/unconfined.md
 $dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers///PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/index.md
 $dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/JsCoroutineDispatchers/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/-js-coroutine-dispatchers.md
 $dokka.location:com.chrynan.dispatchers/JsCoroutineDispatchers/default/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-js-coroutine-dispatchers/default.md
@@ -34,9 +29,5 @@ $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/default/#/Pointi
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/io/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/io.md
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/main/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/main.md
 $dokka.location:com.chrynan.dispatchers/JvmCoroutineDispatchers/unconfined/#/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-jvm-coroutine-dispatchers/unconfined.md
-$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher///PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/index.md
-$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/dispatch/#kotlin.coroutines.CoroutineContext#kotlinx.coroutines.Runnable/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/dispatch.md
-$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/invokeOnTimeout/#kotlin.Long#kotlinx.coroutines.Runnable#kotlin.coroutines.CoroutineContext/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/invoke-on-timeout.md
-$dokka.location:com.chrynan.dispatchers/MainLoopDispatcher/scheduleResumeAfterDelay/#kotlin.Long#kotlinx.coroutines.CancellableContinuation[kotlin.Unit]/PointingToDeclaration/dispatchers/dispatchers/com.chrynan.dispatchers/-main-loop-dispatcher/schedule-resume-after-delay.md
 module:dispatchers
 com.chrynan.dispatchers
