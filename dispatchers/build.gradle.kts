@@ -1,4 +1,5 @@
 import com.chrynan.dispatchers.buildSrc.LibraryConstants
+import com.chrynan.dispatchers.buildSrc.isBuildingOnOSX
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
@@ -17,28 +18,43 @@ kotlin {
     }
     targets {
         android()
+
         jvm()
-        js(BOTH) {
+
+        js(IR) {
             browser()
             nodejs()
         }
-        ios()
-        iosSimulatorArm64()
+
+        if (isBuildingOnOSX()) {
+            ios()
+            iosSimulatorArm64()
+        }
     }
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+                api(KotlinX.coroutines.core)
             }
         }
+
         val androidMain by getting {
             dependencies {
-                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+                api(KotlinX.coroutines.android)
             }
         }
-        val iosMain by sourceSets.getting
-        val iosSimulatorArm64Main by sourceSets.getting
-        iosSimulatorArm64Main.dependsOn(iosMain)
+
+        val jvmMain by getting {
+            dependencies {
+                api(KotlinX.coroutines.swing)
+            }
+        }
+
+        if (isBuildingOnOSX()) {
+            val iosMain by sourceSets.getting
+            val iosSimulatorArm64Main by sourceSets.getting
+            iosSimulatorArm64Main.dependsOn(iosMain)
+        }
     }
 }
 

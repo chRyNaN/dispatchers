@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+    - family-names: "Keenan"
+      given-names: "Christopher"
+      alias: chRyNaN
+      website: "https://chrynan.codes"
+contact:
+    - family-names: "Keenan"
+      given-names: "Christopher"
+      alias: chRyNaN
+      website: "https://chrynan.codes"
+title: "dispatchers"
+type: "software"
+abstract: "A simple Kotlin multi-platform wrapper around the Kotlin Coroutine Dispatchers object."
+license: Apache-2.0
+keywords:
+    - kotlin
+    - coroutines
+    - presentation
+    - "kotlin coroutines"
+    - "kotlin-coroutines"
+    - kotlinx
+    - dispatchers
+    - "kotlin multiplatform"
+repository-code: "https://github.com/chRyNaN/dispatchers"
+url: "https://github.com/chRyNaN/dispatchers"
